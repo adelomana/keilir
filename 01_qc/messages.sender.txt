@@ -1,0 +1,26 @@
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+application/gzip
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R1.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R1.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R2.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R2.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R1.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R2.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R1.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R2.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R1.fastq.gz
+Analysis complete for novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R2.fastq.gz
+/Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1710_1502.001.R2.fastq.gz
+
+time fastqc /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_3_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_7_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1710_1502.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1709_1501.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_2/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_5_1710_1502.001.R2.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1710_1502.001.R1.fastq.gz /Users/adrian/research/keilir/data/testing/53BP1_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1710_1502.001.R2.fastq.gz -o /Users/adrian/research/keilir/results/qc/ -t 8
+
