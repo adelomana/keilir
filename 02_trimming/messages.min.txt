@@ -1,0 +1,83 @@
+(base) necio5 2024-06-03 13:21:37 ~/hub/keilir/02_trimming : python trimmer.py
+['MITF_M_NCS_FLAG_3', 'MITF_M_NCS_IgG_1', 'MITF_M_Untreated_FLAG_1', 'MITF_M_Untreated_IgG_1']
+['novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R1.fastq.gz', 'novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R2.fastq.gz']
+2024-06-03 13:21:41 	 about to clean MITF_M_NCS_FLAG_3
+
+time java -jar /Users/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+
+TrimmomaticPE: Started with arguments:
+ -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_FLAG_3/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_8_1706_1506.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_FLAG_3/MITF_M_NCS_FLAG_3_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 67286668 Both Surviving: 64661485 (96.10%) Forward Only Surviving: 415932 (0.62%) Reverse Only Surviving: 587244 (0.87%) Dropped: 1622007 (2.41%)
+TrimmomaticPE: Completed successfully
+
+real	16m44.748s
+user	61m46.016s
+sys	1m3.688s
+
+['novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R1.fastq.gz', 'novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R2.fastq.gz']
+2024-06-03 13:38:26 	 about to clean MITF_M_NCS_IgG_1
+
+time java -jar /Users/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+
+TrimmomaticPE: Started with arguments:
+ -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_NCS_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_2_1705_1505.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_NCS_IgG_1/MITF_M_NCS_IgG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 166010247 Both Surviving: 156463311 (94.25%) Forward Only Surviving: 1217409 (0.73%) Reverse Only Surviving: 5909009 (3.56%) Dropped: 2420518 (1.46%)
+TrimmomaticPE: Completed successfully
+
+real	48m27.505s
+user	170m43.684s
+sys	2m42.975s
+
+['novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R1.fastq.gz', 'novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R2.fastq.gz']
+2024-06-03 14:26:53 	 about to clean MITF_M_Untreated_FLAG_1
+
+time java -jar /Users/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+
+TrimmomaticPE: Started with arguments:
+ -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_FLAG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1706_1506.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_FLAG_1/MITF_M_Untreated_FLAG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 173103739 Both Surviving: 161460271 (93.27%) Forward Only Surviving: 1176040 (0.68%) Reverse Only Surviving: 7079407 (4.09%) Dropped: 3388021 (1.96%)
+TrimmomaticPE: Completed successfully
+
+real	48m41.700s
+user	180m15.711s
+sys	2m55.205s
+
+['novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R1.fastq.gz', 'novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R2.fastq.gz']
+2024-06-03 15:15:35 	 about to clean MITF_M_Untreated_IgG_1
+
+time java -jar /Users/adrian/software/Trimmomatic-0.39/trimmomatic-0.39.jar PE -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+
+TrimmomaticPE: Started with arguments:
+ -threads 6 -phred33 /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R1.fastq.gz /Users/adrian/research/keilir/data/raw_fastq/MITF_M_Untreated_IgG_1/novaseqxplus4_20240513_LH00203_0044_A22F577LT3.s_1_1705_1505.001.R2.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R1_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R1_garbage.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R2_clean.fastq.gz /Users/adrian/research/keilir/results/trimming/mine/MITF_M_Untreated_IgG_1/MITF_M_Untreated_IgG_1_R2_garbage.fastq.gz ILLUMINACLIP:/Users/adrian/software/Trimmomatic-0.39/adapters/TruSeq3-PE-2.fa:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
+Using PrefixPair: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT' and 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCGTCGTGTAGGGAAAGAGTGTA'
+Using Long Clipping Sequence: 'AGATCGGAAGAGCACACGTCTGAACTCCAGTCAC'
+Using Long Clipping Sequence: 'GTGACTGGAGTTCAGACGTGTGCTCTTCCGATCT'
+Using Long Clipping Sequence: 'TACACTCTTTCCCTACACGACGCTCTTCCGATCT'
+ILLUMINACLIP: Using 1 prefix pairs, 4 forward/reverse sequences, 0 forward only sequences, 0 reverse only sequences
+Input Read Pairs: 128364536 Both Surviving: 122051947 (95.08%) Forward Only Surviving: 924599 (0.72%) Reverse Only Surviving: 3215836 (2.51%) Dropped: 2172154 (1.69%)
+TrimmomaticPE: Completed successfully
+
+real	40m42.789s
+user	142m8.226s
+sys	2m11.896s
+
+(base) necio5 2024-06-03 15:56:18 ~/hub/keilir/02_trimming : 

@@ -24,10 +24,10 @@ def trimmomatic_caller(sample):
     # ILLUMINACLIP:$adapterpath/Truseq3.PE.fa:2:15:4:4:true LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25
     #
     # their options
-    options=' ILLUMINACLIP:{}:2:15:4:4:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25'.format(adapter_file)
+    #options=' ILLUMINACLIP:{}:2:15:4:4:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25'.format(adapter_file)
 
     # my options
-    #options=' ILLUMINACLIP:{}:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25'.format(adapter_file)
+    options=' ILLUMINACLIP:{}:2:30:10:2:True LEADING:20 TRAILING:20 SLIDINGWINDOW:4:15 MINLEN:25'.format(adapter_file)
 
     #
     #
@@ -67,7 +67,7 @@ def trimmomatic_caller(sample):
 
 # 0. user defined variablessample
 raw_fastq_dir = '/Users/adrian/research/keilir/data/raw_fastq/'
-clean_fastq_dir = '/Users/adrian/research/keilir/results/trimming/their/'
+clean_fastq_dir = '/Users/adrian/research/keilir/results/trimming/mine/'
 trimmomatic_path = '/Users/adrian/software/Trimmomatic-0.39/'
 adapter_file = trimmomatic_path + 'adapters/TruSeq3-PE-2.fa'
 number_threads = 4 # marginal improvement using 8 threads vs 4. Keep 4.
