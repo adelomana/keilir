@@ -1,0 +1,13 @@
+name: keilir
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - pip
+  - numpy <2
+  - python=3.10
+  - perl=5.32.1
+  - pip:
+      - homer
+      - wget
